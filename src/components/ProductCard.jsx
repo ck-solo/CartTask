@@ -9,7 +9,7 @@ function ProductCard({ product }) {
   );
 
   return (
-    <div className="flex flex-col w-72 bg-white rounded-2xl
+    <div className="flex flex-col w-72 bg-white text-black rounded-2xl
     shadow-md hover:shadow-xl transition duration-300 overflow-hidden">
  
       <img

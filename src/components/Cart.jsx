@@ -58,8 +58,8 @@ ${darkMode ? "bg-gray-800" : "bg-gray-200"}`}>
       )}
 
       <div className="mt-6 border-t pt-4">
-        <p>Total Items: {totalItems}</p>
-        <p>Shipping: {shipping === 0 ? "Free 🚚" : `₹${shipping}`}</p>
+        <p className="text-xl font-bold">Total Items: {totalItems}</p>
+        <p className="text-xl font-bold">Shipping: {shipping === 0 ? "Free 🚚" : `₹${shipping}`}</p>
       </div>
 
       <div className="mt-4 text-xl font-bold">
